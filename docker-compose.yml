@@ -1,0 +1,15 @@
+version: "3.1"
+
+services:
+    database:
+      container_name: mysql_practice_database
+      image: mysql:5.5.41
+      restart: always
+      environment:
+        MYSQL_USER: admin
+        MYSQL_PASSWORD: adminadmin
+        MYSQL_ROOT_PASSWORD: rootpass
+      ports:
+        - "3306:3306"
+      volumes:
+        - ./dumps:/docker-entrypoint-initdb.d

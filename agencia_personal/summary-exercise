@@ -1,0 +1,20 @@
+Una agencia dedicada a la selección de Personal, desarrollar un sistema: que seleccione
+candidatos para los puestos requeridos por las empresas solicitantes y brinde la información para el cobro de comisiones.
+
+Persona desea que la agencia lo coloque en el mercado laboral deberá completar con sus datos
+personales y antecedentes laborales en una planilla.
+
+Bussines rules:
+Una persona puede tener cualquier combinación de estudios terciarios y/o universitarios completos y/o incompletos.
+Los títulos se encuentras codificados.
+
+Antecedentes Laborales: cuit y razón social de la empresa donde trabajó, si ésta no existe en los registros de
+la agencia, deberá ser registrada indicando además dirección y teléfono.
+
+La persona deberá indicar además el cargo ocupado, las fechas en que lo ocupó y la persona de contacto para dicho
+cargo ocupado.
+
+Cuando una empresa solicitante requiere personal: se informa al sistema la fecha de solicitud, el o los cargos a cubrir,
+junto a los años de experiencia, la edad mínima y máxima de los candidatos y, si es necesario, el sexo para cada
+cargo a cubrir. Si es la primera vez que la empresa solicitante realiza alguna gestión con la agencia se deberá
+registrar su CUIT, razón social, dirección, e-mail y TE.
